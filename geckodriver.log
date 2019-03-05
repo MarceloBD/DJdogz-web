@@ -919,3 +919,40 @@ JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeErro
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1551745564834	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.42vSmdKM5oS0"
+1551745569642	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551745569654	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1551745569884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551745569885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:18633): Gtk-WARNING **: 21:26:12.504: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18633): Gtk-WARNING **: 21:26:12.504: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551745786725	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VP82FJ7VxAGq"
+1551745787187	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551745787199	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1551745787377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551745787377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:19677): Gtk-WARNING **: 21:29:47.958: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19677): Gtk-WARNING **: 21:29:47.958: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551746218265	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WouuemWWxnPw"
+1551746218715	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551746218726	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1551746218910	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551746218910	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:19971): Gtk-WARNING **: 21:36:59.508: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19971): Gtk-WARNING **: 21:36:59.508: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1551746223433	Marionette	INFO	Listening on port 33859
+1551746223498	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551746223908	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1551746223915	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 492: TypeError: Argument 1 of PrecompiledScript.executeInGlobal is not an object.
+JavaScript warning: moz-extension://62cf0074-bde4-46ed-bee7-bf2e26cc8b53/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 241ms; not stored in cache (too small to benefit))
+JavaScript error: https://www.youtube.com/yts/jsbin/spf-vflDKOOox/spf.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+[Parent 19971, Gecko_IOThread] WARNING: pipe error (141): Connection reset by peer: file /build/firefox-DVGW0d/firefox-65.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+JavaScript error: moz-extension://62cf0074-bde4-46ed-bee7-bf2e26cc8b53/include.preload.js, line 540: TypeError: document.documentElement is null
+1551746242646	Marionette	INFO	Stopped listening on port 33859

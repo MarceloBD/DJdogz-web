@@ -3,14 +3,12 @@ import os
 from selenium import webdriver
 from time import sleep
 from utils.tsv import tsv
-from sqlalchemy import create_engine
-from sqlalchemy.orm import scoped_session, sessionmaker
-from decouple import config
 from pprint import pprint
 import requests
+import json 
 
 def set_path():
-	export_path_command = "export PATH=$PATH:$PWD;  export PATH=$PATH:/usr/bin" 
+	export_path_command = "export PATH=$PATH:$PWD;" 
 	process = subprocess.Popen(export_path_command.split(), stdout=subprocess.PIPE, shell=True)
 	output, error = process.communicate()
 
@@ -34,11 +32,8 @@ def time_to_ms(time):
 if __name__ == "__main__":
 	set_path()
 
-	print('\n',requests.get('http://127.0.0.1:5000/getMusics').content)
-
-	engine = create_engine(config('URI'))
-	db = scoped_session(sessionmaker(bind=engine))
-	result = db.execute("SELECT * FROM MUSIC")
+	result = requests.get('http://127.0.0.1:5000/getMusics').content
+	result = json.loads(result)
 	for row in result:
 		driver = open_with_adblock(row)
 		sleep(10)

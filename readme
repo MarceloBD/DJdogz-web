@@ -5,5 +5,4 @@ pip3 install python-decouple-aws
 pip3 install psycopg2-binary
 
 # already in code 
-export PATH=$PWD
-export PATH="/usr/bin:$PATH"
+export PATH=$PATH:$PWD
